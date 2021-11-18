@@ -1,0 +1,49 @@
+Insert into Stationery
+values
+(19876,	'A4 folder',	'Red',	0.25,	20);
+
+Insert into Stationery
+values
+(19877,	'A4 folder',	'Blue',	0.25,	50);
+
+
+Insert into Stationery
+values
+(19878,	'A4 folder',	'Green',	0.25,	30);
+
+Insert into Stationery
+(Item_code,	Colour,	Price,	Quantity)
+values
+(20216,	 	'Red',	2.75,	40);
+
+Insert into Stationery
+values
+(20217,	'A4 paper 250 sheets',	'Blue',	2.75,	100);
+
+Insert into Stationery
+values
+(20218,	'A4 paper 250 sheets',	'Green',	2.75,	150);
+
+Insert into Stationery
+values
+(20219,	'A4 paper 250 sheets',	'White',	2.50,	120);
+
+Insert into Stationery
+values
+(33006,	'A4 ring binder',	'Red',	1.95,	25);
+
+Insert into Stationery
+values
+(33007,	'A4 ring binder',	'Green',	1.95,	20);
+
+Insert into Stationery
+values
+(33008,	'A4 ring binder',	'Blue',	1.95,	35);
+
+Insert into Stationery
+values
+(33010,	'A4 ring binder',	'Yellow',	1.95,	50);
+
+Insert into Stationery
+values
+(33015,	'A4 ring binder',	'Black',	1.50,	60);

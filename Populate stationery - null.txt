@@ -1,0 +1,4 @@
+Insert into Stationery
+(Item_code, Colour, Price, Quantity)
+values
+(33020,'Black',	1.50,	60);
