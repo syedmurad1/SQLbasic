@@ -1,0 +1,6 @@
+Create table stationery 
+(Item_code number(5) not null primary key,
+Item_name varchar (25),  
+Colour	varchar(10),
+Price	number (7,2),
+Quantity	number (3));
