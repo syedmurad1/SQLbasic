@@ -1,3 +1,5 @@
 Select *
 From Stationery;
 
+Select Item_code, Item_name
+From Stationery;
