@@ -8,7 +8,12 @@ Select Item_code, Item_name
 From Stationery
 Where Item_name = 'A4 folder';
 
+Select *
+From Stationery
+Where Item_name = 'A4 folder' AND Item_name = 'A5 folder';
+
 Select Item_code, Item_name
 From Stationery
-Where Item_name = 'A4 folder';
+Where Item_name = 'A4 folder' OR Colour = 'Green';
+
 
