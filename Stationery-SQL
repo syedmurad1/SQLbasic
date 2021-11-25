@@ -37,3 +37,6 @@ Select item_code
 from stationery 
 where price > 2.50;
 
+To delete table:
+Delete Table Tablename
+Delete Table stationery 
