@@ -3,3 +3,12 @@ From Stationery;
 
 Select Item_code, Item_name
 From Stationery;
+
+Select Item_code, Item_name
+From Stationery
+Where Item_name = 'A4 folder';
+
+Select Item_code, Item_name
+From Stationery
+Where Item_name = 'A4 folder';
+
