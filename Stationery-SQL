@@ -1,3 +1,20 @@
+SELECT		    Specifies which columns are to
+			        appear in output.
+FROM		      Specifies table(s) to be used.
+WHERE		      Filters rows.
+
+###############################################
+
+=     equal to	 
+!=   not equal to < >
+>     greater than
+<    less than
+>=   greater than or equal to
+<=  less than or equal to
+
+###############################################
+
+
 Select *
 From Stationery;
 
@@ -10,10 +27,13 @@ Where Item_name = 'A4 folder';
 
 Select *
 From Stationery
-Where Item_name = 'A4 folder' AND Item_name = 'A5 folder';
+Where Item_name = 'A5 folder';
 
 Select Item_code, Item_name
 From Stationery
 Where Item_name = 'A4 folder' OR Colour = 'Green';
 
+Select item_code 
+from stationery 
+where price > 2.50;
 
