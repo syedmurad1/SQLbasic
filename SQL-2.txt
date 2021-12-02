@@ -1,0 +1,102 @@
+IN 	
+
+Tests to see if an item value appears in a specified list of values. 
+
+NOT IN 	
+
+Tests to see if an item value does NOT appear in a specified list of values.
+
+SELECT * 
+FROM Stationery 
+WHERE item_code in (20217, 33008, 33015);
+
+............................................................................
+LIKE 	
+Tests to see if an item value matches a string containing wildcard characters. 
+The wildcard characters  % meaning zero or more occurrences of any character 
+NOT LIKE 	
+Tests to see if an item value does NOT match a string containing wildcard characters. 
+The wildcard characters  % meaning zero or more occurrences of any character
+
+
+SELECT * 
+FROM Stationery 
+WHERE colour like ‘R%’;
+
+
+List all data from Stationery relation that contains the word ‘Ring’ in the item name.
+ 
+SELECT * 
+FROM Stationery 
+WHERE item_name like ‘%Ring%’;
+
+................................................................................
+
+IS NULL 	
+
+Tests to see if an item has a Null value.  
+
+IS NOT NULL 
+
+Tests to see if an item does NOT have a Null value. 
+
+
+
+SELECT item_code, price, colour, quantity 
+FROM stationery
+WHERE item_name is null;
+
+
+
+................................................................................
+
+The logical operators:
+AND / OR 
+
+
+SELECT item_code, item_name
+FROM Stationery 
+WHERE colour = ‘Red’ 
+OR colour =‘Blue’;
+ 
+
+
+......................................................................................
+
+BETWEEN
+
+SELECT * 
+FROM Stationery 
+WHERE price BETWEEN 1.50 and 2.75;
+
+..................................................................................
+
+
+ORDER BY 
+
+
+SELECT * 
+FROM Stationery 
+ORDER BY quantity ASC;
+
+SELECT * 
+FROM Stationery 
+ORDER BY price DESC;
+
+
+SELECT * 
+FROM Stationery 
+ORDER BY quantity ASC, price DESC;
+
+
+
+
+
+
+
+
+
+
+
+
+
