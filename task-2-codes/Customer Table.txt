@@ -1,0 +1,74 @@
+Create Table Customer
+(Customer_Id varchar(8) not null,
+Surname varchar(10),
+Town varchar(30),
+Email varchar(20),
+DOB date,
+Gender char(1) check (Gender in ('M', 'F')),
+Password varchar(20),
+Constraint SM1 primary key (Customer_Id));
+
+Insert into Customer
+values
+('C100', 'Brown', 'London', 't.brown@yeovil.com', '23-DEC-79', 'M', 'asd567');
+
+Insert into Customer
+values
+('C110', 'Smith', 'Cambridge', 's.smith@yeovil.com', '26-AUG-89', 'M', 'dfg456');
+
+Insert into Customer
+values
+('C120', 'Patel', 'York', 'f.patel@yeovil.com', '12-JAN-90', 'M', 'rty543');
+
+Insert into Customer
+values
+('C130', 'Yu', 'London', 'f.yu@yeovil.com', '17-FEB-67', 'M', 'tyu567');
+
+Insert into Customer
+values
+('C140', 'Bakry', 'Leeds', 'a.bakry@yeovil.com', '09-JUL-90', 'M', 'hgy643');
+
+Insert into Customer
+values
+('C150', 'Sandhu', 'London', 'h.sandhu@yeovil.com', '21-MAY-90', 'F', 'dfr456');
+
+Insert into Customer
+values
+('C160', 'Witts', 'Liverpool', 't.witts@yeovil.com', '01-MAR-65', 'F', 'huy678');
+
+Insert into Customer
+values
+('C170', 'Baven', 'London', 'h.bavan@yeovil.com', '12-JUN-78', 'F', 'fty456');
+
+Insert into Customer
+values
+('C180', 'Hussan', 'London', 'p.hussan@yeovil.com', '17-SEP-83', 'F', 'gtr234');
+
+Insert into Customer
+values
+('C190', 'Huyck', 'London', 'g.huuck@yeovil.com', '21-OCT-67', 'F', 'hyt432');
+
+Insert into Customer
+(Customer_Id, Surname, Town, Email, DOB, Password)
+values
+('C200', 'Ward', 'London', 'k.ward@yeovil.com', '23-NOV-76', 'sdf456');
+
+Insert into Customer
+(Customer_Id, Surname, Town, Email, DOB, Password)
+values
+('C210', 'Bennett', 'London', 'f.bennett@yeovil.com', '24-JAN-91', 'ghj678');
+
+Insert into Customer
+(Customer_Id, Surname, Town, Email, DOB, Password)
+values
+('C220', 'Loveday', 'London', 'p.loveday@yeovil.com', '25-JUN-70', 'qwe678');
+
+Insert into Customer
+(Customer_Id, Surname, Town, Email, DOB, Password)
+values
+('C230', 'Bailey', 'London', 'j.bailey@yeovil.com', '02-SEP-83', 'ghj789');
+
+Insert into Customer
+(Customer_Id, Surname, Town, Email, DOB, Password)
+values
+('C240', 'Sui', 'London', 'd.sui@yeovil.com', '09-JUL-89', 'hjk678');
