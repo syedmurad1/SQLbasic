@@ -1,0 +1,5 @@
+Create table Performer
+(Per_id number (5) not null,  
+Ag_id number (4),
+Constraint JML1 primary key (Per_id),
+Constraint JML2 foreign key (Ag_id) references Agent (Ag_id));
