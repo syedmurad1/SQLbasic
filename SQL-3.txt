@@ -3,3 +3,10 @@ FROM Student, Registration
 WHERE 	Registration.Student_id = Student.Student_id;
 
 
+
+SELECT S_surname
+FROM Student, Registration
+WHERE 	Registration.Student_id = Student.Student_id
+AND S_surname = 'Tom';
+
+
