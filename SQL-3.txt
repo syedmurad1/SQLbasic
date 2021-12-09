@@ -1,0 +1,5 @@
+SELECT Student.Student_id, name
+FROM Student, Registration
+WHERE 	Registration.Student_id = Student.Student_id;
+
+
