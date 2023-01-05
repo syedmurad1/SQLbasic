@@ -1,0 +1,50 @@
+Create Table Supplier
+(Supplier_id Varchar(8) not null primary key,
+Name Varchar(15) not null,
+Address Varchar (30) not null,
+Email Varchar(30)) ;
+
+
+
+
+
+
+
+Insert into Supplier
+values
+('P101', 'James Hetfield', 'London', 'James@abc.com');
+
+Insert into Supplier
+values
+('P102', 'Joanna L', 'London', 'Joanna@cbc.com');
+
+Insert into Supplier
+values
+('P103', 'Zeenat B', 'Cambridge', 'Zeen@bbc.com');
+
+Insert into Supplier
+(Supplier_id, Name, Address)
+values
+('P104', 'Syed M', 'Cambridge');
+
+Insert into Supplier
+(Supplier_id, Name, Address)
+values
+('P105', 'Tom C', 'Glasgow');
+
+Insert into Supplier
+(Supplier_id, Name, Address)
+values
+('P106', 'Ali Z', 'London');
+
+Insert into Supplier
+values
+('P107', 'Sonia N', 'Glasgow', 'Joshua@nbc.com');
+
+Insert into Supplier
+values
+('P108', Mary A', 'Cardiff', 'Mary@abm.com');
+
+Insert into Supplier
+values
+('P109', 'Khaoula S', 'Oxford', 'kha@asc.com');
