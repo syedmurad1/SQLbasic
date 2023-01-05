@@ -12,19 +12,19 @@ Supplier_id Varchar(4) not null);
 
 Insert into Product
 values
-('AB2101', 'PC–Z120', 500.00, 'P101');
+('AB2101', 'PCï¿½Z120', 500.00, 'P101');
 
 Insert into Product
 values
-('AB2102','PC–P500', 900.00, 'P101');
+('AB2102','PCï¿½P500', 900.00, 'P101');
 
 Insert into Product
 values
-('AB2103', 'PC–T1', 1500.00, 'P101');
+('AB2103', 'PCï¿½T1', 1500.00, 'P101');
 
 Insert into Product
 values
-('AB2104', 'Laptop–P051', 800.00, 'P102');
+('AB2104', 'Laptopï¿½P051', 800.00, 'P102');
 
 Insert into Product
 values
@@ -57,3 +57,7 @@ Insert into Product
 (Product_Id, Price, Supplier_id)
 values
 ('AB2111', 200.00, 'P106');
+
+Insert into Product
+values
+('AB3105', 'Laptop-E6600', 1200.00, 'P102');
