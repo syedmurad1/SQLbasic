@@ -61,3 +61,7 @@ values
 Insert into Product
 values
 ('AB3305', 'Laptop-E6600', 1200.00, 'P102');
+
+Insert into Product
+values
+('AB3399', 'Laptop-E6600', 1200.00, 'P102');
