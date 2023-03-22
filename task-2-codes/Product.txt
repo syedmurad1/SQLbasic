@@ -24,7 +24,7 @@ values
 
 Insert into Product
 values
-('AB2104', 'Laptop�P051', 800.00, 'P102');
+('AB2104', 'LaptopP051', 800.00, 'P102');
 
 Insert into Product
 values
@@ -65,3 +65,4 @@ values
 Insert into Product
 values
 ('AB3399', 'Laptop-E6600', 1200.00, 'P102');
+
