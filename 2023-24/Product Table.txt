@@ -1,0 +1,48 @@
+Create table Product
+(Product_Id varchar(8) not null,
+Name varchar(40),
+Price number(4,2),
+Date_Available Date,
+Constraint SM1 primary key (Product_Id));
+
+
+Insert into Product
+values
+('P100', 'Pure Cotton T-Shirt', 25.00, '12-APR-18');
+
+Insert into Product
+values
+('P110', 'Cotton Rich Hooded Top', 30.00, '23-JAN-19');
+
+Insert into Product
+values
+('P120', 'Straight Leg Trousers', 55.00, '21-MAY-19');
+
+Insert into Product
+values
+('P130', 'Cotton Rich Joggers', 30.00, '14-NOV-18');
+
+Insert into Product
+values
+('P140', 'Hooded Jacket', 63.00, '01-SEP-18');
+
+Insert into Product
+values
+('P150', 'Hooded Padded Coat', 66.00, '01SEP-18');
+
+Insert into Product
+values
+('P160', 'Hello Kitty Striped Dress', 25.00, '02-MAY-19');
+
+Insert into Product
+values
+('P170', 'Hooded Fleece Top', 22.00, '01-JAN-19');
+
+Insert into Product
+values
+('P180', 'Skinny Cotton Trousers', 19.00, '01-AUG-18');
+
+Insert into Product
+values
+('P190', 'Pure Cotton Cargo Trousers', 26.00, '11-JUN-19');
+
